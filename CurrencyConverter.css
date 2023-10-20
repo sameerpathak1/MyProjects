@@ -1,0 +1,63 @@
+body{
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.converter {
+  max-width: 300px;
+  margin: 0 auto;
+  
+}
+
+.converter input{
+  width: 92%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.converter select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+
+}
+
+.converter button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#convertedAmount  {
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#fromCurrency:hover
+{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+#toCurrency:hover
+{
+  transform: scale(1.1);
+  transition-duration: 1s;
+
+}
+#amount:hover
+{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.btn:hover
+{
+ transform: scale(1.1);
+ transition-duration: 1s;
+ background-color:greenyellow;
+ color: black;
+}
